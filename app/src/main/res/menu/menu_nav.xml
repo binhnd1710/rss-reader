@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_add_source"
+        android:checkable="true"
+        android:title="View source" />
+    <item android:title="Categories">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_business"
+                    android:title="Business" />
+                <item
+                    android:id="@+id/nav_entertainment"
+                    android:title="Entertainment" />
+                <item
+                    android:id="@+id/nav_sport"
+                    android:title="Sport" />
+                <item
+                    android:id="@+id/nav_technology"
+                    android:title="Technology" />
+                <item
+                    android:id="@+id/nav_other"
+                    android:title="Other" />
+            </group>
+        </menu>
+    </item>
+</menu>

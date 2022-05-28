@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BTL</string>
+    <string name="nav_open_drawer">Open navigation drawer</string>
+    <string name="nav_close_drawer">Close navigation drawer</string>
+    <string-array name="categories">
+        <item>Business</item>
+        <item>Entertainment</item>
+        <item>Sport</item>
+        <item>Technology</item>
+        <item>Other</item>
+    </string-array>
+</resources>
